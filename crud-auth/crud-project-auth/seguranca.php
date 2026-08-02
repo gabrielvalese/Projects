@@ -29,11 +29,10 @@ function removeUser(): void {
     session_start();
     session_destroy();
     header("Location: ./login.php");
-    exit;
 }
 
 function verifySession(): void {
-    if (    empty($_SESSION['user'])) {
+    if (empty($_SESSION['user'])) {
         removeUser();
     }
 }

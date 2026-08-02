@@ -21,7 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && !empty($emailUserSearch)) {
 
 
 
-<h1 class="mb-4">Visualizar Pessoas</h1>
+<h1 class="mb-4">Visualizar</h1>
+
 
 
 <div class="card shadow-sm mb-4">

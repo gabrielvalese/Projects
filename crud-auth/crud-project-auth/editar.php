@@ -1,6 +1,7 @@
 <?php
-require_once "seguranca.php";
 verifySession();
+require_once "seguranca.php";
+
 require_once "config.php";
 require_once "includes/header.php";
 require_once "functions.php";
